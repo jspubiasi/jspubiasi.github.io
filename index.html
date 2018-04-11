@@ -280,6 +280,8 @@
             document.getElementById("overlay").classList.toggle('visible');
         }
 
+         document.getElementById("overlay").addEventListener('click', toggleMenu);
+
         function scrollToId(id) {
             toggleMenu();
             $(window).scrollTo($('#' + id), 1000);

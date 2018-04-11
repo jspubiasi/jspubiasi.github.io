@@ -48,8 +48,8 @@ a {
 .nav-bar {
 	width: 100%;
 	text-align: left;
-    height: 9vh;
-    min-height: 4rem;
+	height: 9vh;
+	min-height: 4rem;
 }
 
 .nav-bar__btn {
@@ -167,6 +167,7 @@ a {
 
 .event-info {
 	display: inline-block;
+	padding: 1rem 0;
 	width: 33.33%;
 	font-size: 30px;
 	text-align: center;
@@ -177,6 +178,12 @@ a {
 	color: #f5d96e;
 	display: inline-block;
 	font-size: 30px;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.event-info .icon {
+	vertical-align: middle;
 }
 
 .event-location {
@@ -417,6 +424,7 @@ a {
 
 .speaker-info img {
 	display: inline-block;
+	border-radius: 50%;
 	width: 60%;
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);

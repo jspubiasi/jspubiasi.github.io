@@ -12,7 +12,7 @@
 
 <body>
     <button class="menu_btn" onclick="toggleMenu()"> Menu </button>
-    <button class="register_btn" onclick="">
+    <button class="register_btn" onclick="window.open('https://js-pub-beginners-edition.eventbrite.com')">
         Register for Free
     </button>
     <div id="overlay"></div>
@@ -39,86 +39,124 @@
     <section class="event-info__wrapper">
         <div class="event-info event-date">
             <i class="icon flaticon-calendar"></i>
-            <h2>June 15th</h2>
+            <h2>April 26th</h2>
         </div>
         <div class="event-info event-time">
             <i class="icon flaticon-clock"></i>
-            <h2> 19:00</h2>
+            <h2>19:00</h2>
         </div>
-        <div class="event-info event-location" onclick="window.open('https://tinyurl.com/y8qwuerm')">
+        <div class="event-info event-location" onclick="window.open('https://www.google.ro/maps/place/Vinyl+Bar/@47.1624869,27.5794346,17z/data=!3m1!4b1!4m5!3m4!1s0x40cafb774126a72f:0x7d7ec88e20ad70c1!8m2!3d47.1624869!4d27.5816233?hl=en')">
             <i class="icon flaticon-location"></i>
-            <h2>Teatru Fix</h2>
+            <h2>Vinyl Bar</h2>
         </div>
     </section>
     <section class="container schedule" id="schedule">
         <h2 class="title">Schedule</h2>
         <div class="talk-wrapper">
-            <div class="talk host">
+            <div class="talk">
                 <div class="talk-specs">
-                    <img data-colour="#FFCF4A" src="img/grigi.png" name="Paul Harbuz" />
+                    <div class="talk-specs-content">
+                        <div class="talk-time">
+                            <p class="talk-hour"> 19</p>
+                            <p class="talk-minutes"> 00</p>
+                        </div>
+                        <img data-colour="#FFCF4A" src="img/badea.png" name="Alex Badea" />
+                    </div>
                 </div>
                 <div class="talk-info">
-                    <p class="talk-title"> Host </p>
-                    <p class="talk-speaker"> Barosanda </p>
+                    <p class="talk-title"> Welcome and Introduction </p>
+                    <p class="talk-speaker"> Alex Badea </p>
                 </div>
                 <div class="talk-description">
-                    It seems Reactive Programming is all over the news nowadays, but in college we barely hear about it. So, in this talk we'll
-                    discover what's so special about this programming paradigm and how we can take it's JUJU into the Javascript
-                    realm! :)
+                    I like js and web stuff in general, but I also like to talk. A lot! So I'll be your host :)
                 </div>
             </div>
             <div class="talk">
                 <div class="talk-specs">
-                    <div class="talk-time">
-                        <p class="talk-hour"> 18</p>
-                        <p class="talk-minutes"> 00</p>
+                    <div class="talk-specs-content">
+                        <div class="talk-time">
+                            <p class="talk-hour"> 19</p>
+                            <p class="talk-minutes"> 10</p>
+                        </div>
+                        <div class="dual-image">
+                            <img data-colour="#FFCF4A" src="img/8.png" title="Vlad" />
+                            <img data-colour="#FFCF4A" src="img/2.png" title="Joao" />
+                        </div>
                     </div>
-                    <img data-colour="#FFCF4A" src="img/badea.png" name="Paul Harbuz" />
                 </div>
                 <div class="talk-info">
-                    <p class="talk-title"> Closures in JS </p>
-                    <p class="talk-speaker"> Alexandru Badea </p>
+                    <p class="talk-title"> CSS Animations Kickstarter (english) </p>
+                    <p class="talk-speaker"> Vlad & Joao</p>
                 </div>
                 <div class="talk-description">
-                    It seems Reactive Programming is all over the news nowadays, but in college we barely hear about it. So, in this talk we'll
-                    discover what's so special about this programming paradigm and how we can take it's JUJU into the Javascript
-                    realm! :)
+                    JS is really awesome, but CSS has some cool tricks to show too! In our session we will show you how to create fast and sleek
+                    animations using only pure CSS. Let’s do it!
                 </div>
             </div>
             <div class="talk">
                 <div class="talk-specs">
-                    <div class="talk-time">
-                        <p class="talk-hour"> 19</p>
-                        <p class="talk-minutes"> 00</p>
+                    <div class="talk-specs-content">
+                        <div class="talk-time">
+                            <p class="talk-hour"> 19</p>
+                            <p class="talk-minutes"> 45</p>
+                        </div>
+                        <div class="dual-image">
+                            <img data-colour="#FFCF4A" src="img/1.png" title="Păvă" />
+                            <img data-colour="#FFCF4A" src="img/4.png" title="Anda" />
+                        </div>
                     </div>
-                    <img data-colour="#FFCF4A" src="img/hagiu.png" name="Paul Harbuz" />
                 </div>
                 <div class="talk-info">
-                    <p class="talk-title"> Async JS </p>
-                    <p class="talk-speaker"> Stefan Hagiu </p>
+                    <p class="talk-title"> Why JS is the best language in the world </p>
+                    <p class="talk-speaker"> Păvă & Anda </p>
                 </div>
                 <div class="talk-description">
-                    It seems Reactive Programming is all over the news nowadays, but in college we barely hear about it. So, in this talk we'll
-                    discover what's so special about this programming paradigm and how we can take it's JUJU into the Javascript
-                    realm! :)
+                    Wondering what makes JavaScript so special and so loved by its communities? Join us in this back and forth battle among the
+                    best JavaScript features and discover why you don't need any other programming language!
                 </div>
             </div>
             <div class="talk">
                 <div class="talk-specs">
-                    <div class="talk-time">
-                        <p class="talk-hour"> 20</p>
-                        <p class="talk-minutes"> 00</p>
+                    <div class="talk-specs-content">
+                        <div class="talk-time">
+                            <p class="talk-hour"> 20</p>
+                            <p class="talk-minutes">20</p>
+                        </div>
+                        <div class="dual-image">
+                            <img data-colour="#FFCF4A" src="img/3.png" title="Paul" />
+                            <img data-colour="#FFCF4A" src="img/5.png" title="Sergiu" />
+                        </div>
                     </div>
-                    <img data-colour="#FFCF4A" src="img/grigi.png" name="Paul Harbuz" />
                 </div>
                 <div class="talk-info">
-                    <p class="talk-title"> How the browser works </p>
-                    <p class="talk-speaker"> Alexandru Grigoruta </p>
+                    <p class="talk-title">Shots and Node.js</p>
+                    <p class="talk-speaker"> Paul & Sergiu </p>
                 </div>
                 <div class="talk-description">
-                    It seems Reactive Programming is all over the news nowadays, but in college we barely hear about it. So, in this talk we'll
-                    discover what's so special about this programming paradigm and how we can take it's JUJU into the Javascript
-                    realm! :)
+                    Ok, shots are a fast way to get in a specific state. Join our presentation to share some Node.js "shots". We will get from
+                    0 to... server-side In no time. P.S.: No headaches involved during the presentation, we promise.
+                </div>
+            </div>
+            <div class="talk">
+                <div class="talk-specs">
+                    <div class="talk-specs-content">
+                        <div class="talk-time">
+                            <p class="talk-hour"> 20</p>
+                            <p class="talk-minutes"> 55</p>
+                        </div>
+                        <div class="dual-image">
+                            <img data-colour="#FFCF4A" src="img/6.png" title="Grigi" />
+                            <img data-colour="#FFCF4A" src="img/7.png" title="Gagiu" />
+                        </div>
+                    </div>
+                </div>
+                <div class="talk-info">
+                    <p class="talk-title"> Bringing Pong back to life using Canvas </p>
+                    <p class="talk-speaker"> Grigi & Gagiu </p>
+                </div>
+                <div class="talk-description">
+                    Going back to when there was no Browser, no HTML, no CSS, no JS. The human kind still had games and the first of its name
+                    held in awe and glory by all was The mighty Pong which we will try to recreate. See you there!
                 </div>
             </div>
         </div>
@@ -128,21 +166,80 @@
         <div class="speakers__information">
             <div class="speaker-info-wrapper">
                 <div class="speaker-info">
-                    <img src="img/test.jpg">
+                    <img src="img/joao.jpg">
                     <div class="speaker-bio">
-                        <p class="speaker-name"> Alexandru Badea </p>
-                        <p class="speaker-description"> Hey everyone! I'm Paul and I like rocks. That's why I climb them allllll the TIME
-                            <3 </p>
+                        <p class="speaker-name"> Joao Martins</p>
+                        <p class="speaker-description"> Olá, I'm João I come from the lands of the West. During my student life I started doing work as a
+                            UI designer, but over time coding interfaces became my main turf. Nowadays, you can find me at
+                            Yonder making applications happen, with the best language in the world, Javascript!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="speaker-info-wrapper">
+                <div class="speaker-info">
+                    <img src="img/vlad.jpg">
+                    <div class="speaker-bio">
+                        <p class="speaker-name"> Vlad Milinovici </p>
+                        <p class="speaker-description"> Hi there, my name is Vlad Ionuț Milinovici, Web Developer on a path to becoming full-stack. I love
+                            creating animations and games.</p>
                     </div>
                 </div>
             </div>
             <div class="speaker-info-wrapper">
                 <div class="speaker-info">
                     <img src="img/test.jpg">
+                    <div class="speaker-bio">
+                        <p class="speaker-name"> Alexandru Păvăloi</p>
+                        <p class="speaker-description"> Passionate about JavaScript and technology in general, I code, write and teach because it makes me
+                            feel alive! 🔥 PS: I also think JavaScript is the BEST language in the world... as I shall prove
+                            to you at JSPub v2. See you there ;)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="speaker-info-wrapper">
+                <div class="speaker-info">
+                    <img src="img/anda.jpg">
+                    <div class="speaker-bio">
+                        <p class="speaker-name"> Anda Petraș</p>
+                        <p class="speaker-description"> Full stack developer but mainly interested in the Front end world especially in all JavaScript related
+                            stuff. Passionate to try new ideas and use what's new and cool in the JavaScript world. PS: You're
+                            not sure what is the best programming language? I will get you the proof that JAVASCRIPT rules
+                            the world in the JSPub v2. Stay tuned and see you there!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="speaker-info-wrapper">
+                <div class="speaker-info">
+                    <img src="img/paul.jpg">
                     <div class="speaker-bio">
                         <p class="speaker-name"> Paul Harbuz </p>
-                        <p class="speaker-description"> Hey everyone! I'm Paul and I like rocks. That's why I climb them allllll the TIME
-                            <3 </p>
+                        <p class="speaker-description"> JSoholic, addicted to what's cool and new about the JavaScript universe. Started as a back-end developer
+                            and made my way into front-end. I got psyched really fast and I am now loyal to javascript! Looking
+                            forward for the second JSPub (v2), see you there!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="speaker-info-wrapper">
+                <div class="speaker-info">
+                    <img src="img/sergiu.jpg">
+                    <div class="speaker-bio">
+                        <p class="speaker-name"> Sergiu Enășoaie</p>
+                        <p class="speaker-description">I'm Sergiu. I'm a back-end developer. I used to do it in Java. I was "stupid" enough to move to JavaScript.
+                            I hope I'm smart enough to appreciate it's strengths. I'm currently into Node.js. PS: I don't
+                            know CSS PPS: I'm here for the drinks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="speaker-info-wrapper">
+                <div class="speaker-info">
+                    <img src="img/grigi.jpg">
+                    <div class="speaker-bio">
+                        <p class="speaker-name"> Alexandru Grigoruță</p>
+                        <p class="speaker-description"> JavaScript Enthusiast, curious and creative all the time. I juggle university and work on a daily
+                            basis, but I always find spare time to read about what's new and awesome in the JavaScript world.
+                            I can't wait to meet you guys at JSPub 2!</p>
                     </div>
                 </div>
             </div>
@@ -150,9 +247,11 @@
                 <div class="speaker-info">
                     <img src="img/test.jpg">
                     <div class="speaker-bio">
-                        <p class="speaker-name"> Stefan Hagiu </p>
-                        <p class="speaker-description"> Hey everyone! I'm Paul and I like rocks. That's why I climb them allllll the TIME
-                            <3 </p>
+                        <p class="speaker-name"> Ștefan Hagiu </p>
+                        <p class="speaker-description"> JavaScript developer by day, AI enthusiast at night (math is my kryptonite)! Although Front-End development
+                            wasn't my initial path, I'm very happy I landed here! In the past couple of years JavaScript
+                            was my sole companion, which, despite all it's drawbacks, I've learned to understand and love!
+                            I'm fascinated by all it's hard problems, and I want to learn and share my discoveries with everyone!</p>
                     </div>
                 </div>
             </div>
@@ -162,17 +261,18 @@
     <footer class="container contact" id="contact">
         <h2 class="title">Contact</h2>
         <div class="social-media">
-            <a href="https://www.facebook.com/tssyonder/" target="_blank">
+            <a href="https://www.facebook.com/JSPubEvent/" target="_blank">
                 <div class="social-media__icon flaticon-facebook"></div>
             </a>
-            <a href="http://tss-yonder.com/" target="_blank">
-                <span class="social-media__icon flaticon-logo_social_media_www"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+            <a class="yonder-logo-link" href="http://tss-yonder.com/" target="_blank">
+                <img class="yonder-logo" src="img/logo-yonder-big.png" />
             </a>
             <a href="https://www.linkedin.com/company-beta/260243/?pathWildcard=260243" target="_blank">
                 <div class=" social-media__icon flaticon-linkedin"></div>
             </a>
         </div>
-        <p class="final-note"> Made with <span class="flaticon-heart"></span> by the WebCluster at Yonder-Iasi </p>
+        <p class="final-note"> Made with
+            <span class="flaticon-heart"></span> by the WebCluster at Yonder-Iasi </p>
     </footer>
     <script>
         function toggleMenu() {

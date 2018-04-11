@@ -18,7 +18,7 @@ a {
 .footer-register {
 	width: 100%;
 	text-align: center;
-	margin: 1rem 0;
+	padding-top: 1rem;
 }
 
 .menu_btn {
@@ -538,6 +538,7 @@ a {
 }
 
 .contact .title {
+	font-size: 35px;
 	margin-bottom: 0;
 }
 

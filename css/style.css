@@ -176,7 +176,7 @@ a {
 	font-style: italic;
 	color: #f5d96e;
 	display: inline-block;
-	font-size: 45px;
+	font-size: 30px;
 }
 
 .event-location {
@@ -284,6 +284,7 @@ a {
 }
 
 .talk-info {
+	box-sizing: border-box;
 	display: inline-block;
 	padding-right: 1.2rem;
 	font-size: 16px;

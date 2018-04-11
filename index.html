@@ -12,9 +12,6 @@
 
 <body>
     <button class="menu_btn" onclick="toggleMenu()"> Menu </button>
-    <button class="register_btn" onclick="window.open('https://js-pub-beginners-edition.eventbrite.com')">
-        Register for Free
-    </button>
     <div id="overlay"></div>
     <nav class="nav-bar">
         <a class="nav-bar__btn" onclick="scrollToId('schedule')">
@@ -33,6 +30,9 @@
                 <img id="logo" class="logo" src="img/logo.svg">
                 <p id="description"> Casual Javascript Conference </p>
                 <p id="subtitle"> Iasi, Romania </p>
+                <button class="register_btn" onclick="window.open('https://js-pub-beginners-edition.eventbrite.com')">
+                    Register for Free
+                </button>
             </div>
         </div>
     </section>
@@ -269,6 +269,11 @@
     </section>
     <footer class="container contact" id="contact">
         <h2 class="title">Contact</h2>
+        <div class="footer-register">
+            <button class="register_btn register_btn--footer" onclick="window.open('https://js-pub-beginners-edition.eventbrite.com')">
+                Register for Free
+            </button>
+        </div>
         <div class="social-media">
             <a href="https://www.facebook.com/JSPubEvent/" target="_blank">
                 <div class="social-media__icon flaticon-facebook"></div>

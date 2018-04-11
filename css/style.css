@@ -15,9 +15,13 @@ a {
 }
 
 /* TOP */
+.footer-register {
+	width: 100%;
+	text-align: center;
+	margin: 1rem 0;
+}
 
-.menu_btn,
-.register_btn {
+.menu_btn {
 	display: none;
 	cursor: pointer;
 	font-size: 14px;
@@ -40,9 +44,23 @@ a {
 }
 
 .register_btn {
-	display: block;
-	right: 1rem;
+	display: inline-block;
 	font-size: 1rem;
+	cursor: pointer;
+	font-size: 14px;
+	z-index: 1;
+	color: black;
+	background: #e2007a;
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px;
+	border: 0;
+	outline: 0;
+}
+
+.register_btn.register_btn--footer {
+	background: #004a91;
 }
 
 .nav-bar {

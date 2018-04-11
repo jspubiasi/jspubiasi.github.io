@@ -488,14 +488,13 @@ a {
 .social-media {
 	text-align: center;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
 .social-media__icon {
 	font-size: 4rem;
 	display: inline-block;
-	padding: 3rem 1rem;
 	transition: opacity .1s ease-in;
 	text-align: center;
 	color: white;
@@ -511,7 +510,7 @@ a {
 	text-align: center;
 	font-size: 12px;
 	color: #fff;
-	padding-bottom: 20px;
+	padding: 20px 0;
 }
 
 /* END*/
